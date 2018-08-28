@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: MotaWord
 x-complete: 1
@@ -166,4 +165,3 @@ paths:
       - Glossaries
       - GlossaryId
       - Download
----

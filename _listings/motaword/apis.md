@@ -12,8 +12,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Glossary
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/glossary/master/_listings/motaword/apis.md
 specificationVersion: "0.14"
 apis:
@@ -287,6 +287,128 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/glossary/master/_listings/motaword/projectsprojectidglossariesglossaryiddownload-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/glossary/master/_listings/motaword/projectsprojectidglossariesglossaryiddownload-get-openapi.md
+- name: Mota Word - Download a glossary
+  x-api-slug: projectsprojectidglossariesglossaryiddownload-get
+  description: Download a glossary.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/motaword-logo.png
+  humanURL: http://www.motaword.com
+  baseURL: https://api.motaword.com//
+  tags: API Provider, Translations, Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/glossary/master/_listings/motaword/projectsprojectidglossariesglossaryiddownload-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/glossary/master/_listings/motaword/projectsprojectidglossariesglossaryiddownload-get-openapi.md
+- name: Mota Word - Update the glossary.
+  x-api-slug: projectsprojectidglossariesglossaryid-put
+  description: Update the glossary. File name and contents will replaced with the
+    new one.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/motaword-logo.png
+  humanURL: http://www.motaword.com
+  baseURL: https://api.motaword.com//
+  tags: API Provider, Translations, Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/glossary/master/_listings/motaword/projectsprojectidglossariesglossaryid-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/glossary/master/_listings/motaword/projectsprojectidglossariesglossaryid-put-openapi.md
+- name: Mota Word - Get single glossary
+  x-api-slug: projectsprojectidglossariesglossaryid-get
+  description: Get single glossary.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/motaword-logo.png
+  humanURL: http://www.motaword.com
+  baseURL: https://api.motaword.com//
+  tags: API Provider, Translations, Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/glossary/master/_listings/motaword/projectsprojectidglossariesglossaryid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/glossary/master/_listings/motaword/projectsprojectidglossariesglossaryid-get-openapi.md
+- name: Mota Word - Delete the glossary
+  x-api-slug: projectsprojectidglossariesglossaryid-delete
+  description: Delete the glossary.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/motaword-logo.png
+  humanURL: http://www.motaword.com
+  baseURL: https://api.motaword.com//
+  tags: API Provider, Translations, Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/glossary/master/_listings/motaword/projectsprojectidglossariesglossaryid-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/glossary/master/_listings/motaword/projectsprojectidglossariesglossaryid-delete-openapi.md
+- name: Mota Word - Upload a new glossary
+  x-api-slug: projectsprojectidglossaries-post
+  description: Upload a new glossary.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/motaword-logo.png
+  humanURL: http://www.motaword.com
+  baseURL: https://api.motaword.com//
+  tags: API Provider, Translations, Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/glossary/master/_listings/motaword/projectsprojectidglossaries-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/glossary/master/_listings/motaword/projectsprojectidglossaries-post-openapi.md
+- name: Mota Word - Get a list of glossaries
+  x-api-slug: projectsprojectidglossaries-get
+  description: Get a list of glossaries.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/motaword-logo.png
+  humanURL: http://www.motaword.com
+  baseURL: https://api.motaword.com//
+  tags: API Provider, Translations, Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/glossary/master/_listings/motaword/projectsprojectidglossaries-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/glossary/master/_listings/motaword/projectsprojectidglossaries-get-openapi.md
+- name: Mota Word - Download a glossary
+  x-api-slug: projectsprojectidglossariesglossaryiddownload-get
+  description: Download a glossary.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/motaword-logo.png
+  humanURL: http://www.motaword.com
+  baseURL: https://api.motaword.com//
+  tags: API Provider, Translations, Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/glossary/master/_listings/motaword/projectsprojectidglossariesglossaryiddownload-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/glossary/master/_listings/motaword/projectsprojectidglossariesglossaryiddownload-get-openapi.md
+- name: Mota Word - Update the glossary.
+  x-api-slug: projectsprojectidglossariesglossaryid-put
+  description: Update the glossary. File name and contents will replaced with the
+    new one.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/motaword-logo.png
+  humanURL: http://www.motaword.com
+  baseURL: https://api.motaword.com//
+  tags: API Provider, Translations, Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/glossary/master/_listings/motaword/projectsprojectidglossariesglossaryid-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/glossary/master/_listings/motaword/projectsprojectidglossariesglossaryid-put-openapi.md
+- name: Mota Word - Get single glossary
+  x-api-slug: projectsprojectidglossariesglossaryid-get
+  description: Get single glossary.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/motaword-logo.png
+  humanURL: http://www.motaword.com
+  baseURL: https://api.motaword.com//
+  tags: API Provider, Translations, Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/glossary/master/_listings/motaword/projectsprojectidglossariesglossaryid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/glossary/master/_listings/motaword/projectsprojectidglossariesglossaryid-get-openapi.md
+- name: Mota Word - Delete the glossary
+  x-api-slug: projectsprojectidglossariesglossaryid-delete
+  description: Delete the glossary.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/motaword-logo.png
+  humanURL: http://www.motaword.com
+  baseURL: https://api.motaword.com//
+  tags: API Provider, Translations, Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/glossary/master/_listings/motaword/projectsprojectidglossariesglossaryid-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/glossary/master/_listings/motaword/projectsprojectidglossariesglossaryid-delete-openapi.md
 x-common:
 - type: x-website
   url: http://www.motaword.com

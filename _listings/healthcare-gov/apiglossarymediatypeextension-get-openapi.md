@@ -30,6 +30,52 @@ paths:
           description: OK
       tags:
       - Glossary
+  /es/glossary/{pageName}{mediaTypeExtension}:
+    get:
+      summary: Get Glossary Page Name Media Type Extension
+      description: Returns pages content.
+      operationId: returns-pages-content
+      x-api-path-slug: esglossarypagenamemediatypeextension-get
+      parameters:
+      - in: path
+        name: mediaTypeExtension
+        description: Omiting the param causes html to be returned
+      - in: path
+        name: pageName
+      responses:
+        200:
+          description: OK
+      tags:
+      - Insurance
+      - Glossary
+      - Page
+      - Name
+      - Media
+      - Type
+      - Extension
+  /glossary/{pageName}{mediaTypeExtension}:
+    get:
+      summary: Get Glossary Page Name Media Type Extension
+      description: Returns pages content.
+      operationId: returns-pages-content
+      x-api-path-slug: glossarypagenamemediatypeextension-get
+      parameters:
+      - in: path
+        name: mediaTypeExtension
+        description: Omiting the param causes html to be returned
+      - in: path
+        name: pageName
+      responses:
+        200:
+          description: OK
+      tags:
+      - Insurance
+      - Glossary
+      - Page
+      - Name
+      - Media
+      - Type
+      - Extension
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0
